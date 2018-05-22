@@ -14,7 +14,7 @@ public class SoundSC : MonoBehaviour {
 		_audio = GetComponent<AudioSource> ();
 		_audio.clip = Microphone.Start (null, true, 10, 44100);
 		_audio.loop = true;
-		_audio.mute = true;
+		//_audio.mute = true;
 		while (!(Microphone.GetPosition (null) > 0)) {
 		}
 
@@ -26,8 +26,8 @@ public class SoundSC : MonoBehaviour {
 
 		loudness = GetAveragedVolume () * sensitivity;
 		if (loudness > 15)
-			Debug.Log ("bisa");
 	{
+			Debug.Log ("bisa");
 		Vector2 pos = transform.position;
 		pos.x = Mathf.Round (pos.x);
 		pos.y = Mathf.Round (pos.y);

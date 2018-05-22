@@ -7377,8 +7377,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c4257f09d0e6d4428767728cf6878a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivity: 50
-  loudness: 15
+  sensitivity: 80
+  loudness: 8
   bombPrefab: {fileID: 1527449808618084, guid: 416c29c9467241743b78491dfbb9d5e6, type: 2}
 --- !u!114 &1912311783
 MonoBehaviour:
